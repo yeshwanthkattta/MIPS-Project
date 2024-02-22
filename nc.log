@@ -1,0 +1,371 @@
+xmverilog(64): 17.10-s001: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	xmverilog	17.10-s001: Started on May 08, 2022 at 17:25:46 EDT
+ncverilog
+	-l
+	nc.log
+	+access+r
+	maxtb.v
+	mips_scan.v
+	osu_scan.v
+	osu05_stdcells.v
+xmverilog: *W,NCEXDEP: Executable (ncverilog) is deprecated. Use (xmverilog) instead.
+file: maxtb.v
+	module worklib.mips_test:v
+		errors: 0, warnings: 0
+file: mips_scan.v
+	module worklib.alucontrol:v
+		errors: 0, warnings: 0
+	module worklib.mux23:v
+		errors: 0, warnings: 0
+	module worklib.mux2_2:v
+		errors: 0, warnings: 0
+	module worklib.mux2_1:v
+		errors: 0, warnings: 0
+	module worklib.mux4_1:v
+		errors: 0, warnings: 0
+	module worklib.mux4_0:v
+		errors: 0, warnings: 0
+	module worklib.mux2_0:v
+		errors: 0, warnings: 0
+	module worklib.alu_DW01_add_0:v
+		errors: 0, warnings: 0
+	module worklib.alu:v
+		errors: 0, warnings: 0
+	module worklib.zerodetect:v
+		errors: 0, warnings: 0
+	module worklib.flop_test_0:v
+		errors: 0, warnings: 0
+	module worklib.flopen_test_0:v
+		errors: 0, warnings: 0
+	module worklib.flopen_test_1:v
+		errors: 0, warnings: 0
+	module worklib.flopen_test_2:v
+		errors: 0, warnings: 0
+	module worklib.flopen_test_3:v
+		errors: 0, warnings: 0
+	module worklib.flop_test_1:v
+		errors: 0, warnings: 0
+	module worklib.flopenr_test_1:v
+		errors: 0, warnings: 0
+	module worklib.flop_test_2:v
+		errors: 0, warnings: 0
+	module worklib.regfile_test_1:v
+		errors: 0, warnings: 0
+	module worklib.flop_test_3:v
+		errors: 0, warnings: 0
+	module worklib.datapath_test_2:v
+		errors: 0, warnings: 0
+	module worklib.controller_test_1:v
+		errors: 0, warnings: 0
+	module worklib.mips:v
+		errors: 0, warnings: 0
+file: osu_scan.v
+	module worklib.DFFPOSX1_SCAN:v
+		errors: 0, warnings: 0
+	primitive worklib.p_dregscan:v
+		errors: 0, warnings: 0
+	module worklib.DFFNEGX1_SCAN:v
+		errors: 0, warnings: 0
+	primitive worklib.n_dregscan:v
+		errors: 0, warnings: 0
+	module worklib.DFFSR_SCAN:v
+		errors: 0, warnings: 0
+	primitive worklib.p_dregscansr:v
+		errors: 0, warnings: 0
+file: osu05_stdcells.v
+	module worklib.AND2X1:v
+		errors: 0, warnings: 0
+	module worklib.AND2X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI21X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI22X1:v
+		errors: 0, warnings: 0
+	module worklib.BUFX2:v
+		errors: 0, warnings: 0
+	module worklib.BUFX4:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUF1:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUF2:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUF3:v
+		errors: 0, warnings: 0
+	module worklib.DFFNEGX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFPOSX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFSR:v
+		errors: 0, warnings: 0
+	module worklib.FAX1:v
+		errors: 0, warnings: 0
+	module worklib.HAX1:v
+		errors: 0, warnings: 0
+	module worklib.INVX1:v
+		errors: 0, warnings: 0
+	module worklib.INVX2:v
+		errors: 0, warnings: 0
+	module worklib.INVX4:v
+		errors: 0, warnings: 0
+	module worklib.INVX8:v
+		errors: 0, warnings: 0
+	module worklib.LATCH:v
+		errors: 0, warnings: 0
+	module worklib.MUX2X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND2X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND3X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR2X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR3X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI21X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI22X1:v
+		errors: 0, warnings: 0
+	module worklib.OR2X1:v
+		errors: 0, warnings: 0
+	module worklib.OR2X2:v
+		errors: 0, warnings: 0
+	module worklib.PADINC:v
+		errors: 0, warnings: 0
+	module worklib.PADINOUT:v
+		errors: 0, warnings: 0
+	module worklib.PADOUT:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX1:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX2:v
+		errors: 0, warnings: 0
+	module worklib.XNOR2X1:v
+		errors: 0, warnings: 0
+	module worklib.XOR2X1:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_dff:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_tlat:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_rslat:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_mux2:v
+		errors: 0, warnings: 0
+	module worklib.PADNC:v
+		errors: 0, warnings: 0
+	module worklib.PADFC:v
+		errors: 0, warnings: 0
+	module worklib.PADGND:v
+		errors: 0, warnings: 0
+	module worklib.PADVDD:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  controller_test_1 cont ( .clk(n39), .reset(n22), .op(instr[31:26]), .zero(
+                       |
+xmelab: *W,CUVWSP (./mips_scan.v,1092|23): 1 output port was not connected:
+xmelab: (./mips_scan.v,948): pcen
+
+  alu_DW01_add_0 add_1_root_add_12_2 ( .A(a), .B(b2), .CI(n40), .SUM(sum) );
+                                   |
+xmelab: *W,CUVWSP (./mips_scan.v,282|35): 1 output port was not connected:
+xmelab: (./mips_scan.v,215): CO
+
+  FAX1 U1_7 ( .A(A[7]), .B(B[7]), .C(carry[7]), .YS(SUM[7]) );
+          |
+xmelab: *W,CUVWSP (./mips_scan.v,224|10): 1 output port was not connected:
+xmelab: (./osu05_stdcells.v,379): YC
+
+     $hold (negedge D, negedge CLK, thold_negedge$D$CLK,  NOTIFIER);
+                                                      |
+xmelab: *W,CUNGL1 (./osu05_stdcells.v,260|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFNEGX1).
+     $hold (posedge D, negedge CLK, thold_posedge$D$CLK,  NOTIFIER);
+                                                      |
+xmelab: *W,CUNGL1 (./osu05_stdcells.v,262|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFNEGX1).
+     $hold (negedge D, posedge CLK, thold_negedge$D$CLK,  NOTIFIER);
+                                                      |
+xmelab: *W,CUNGL1 (./osu05_stdcells.v,298|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFPOSX1).
+     $hold (posedge D, posedge CLK, thold_posedge$D$CLK,  NOTIFIER);
+                                                      |
+xmelab: *W,CUNGL1 (./osu05_stdcells.v,300|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFPOSX1).
+     $recovery(posedge R, posedge CLK &&& \D&S , trec$R$CLK, NOTIFIER);
+                                                          |
+xmelab: *W,CUNGL1 (./osu05_stdcells.v,361|58): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (DFFSR).
+     $hold (negedge D, negedge CLK, thold_negedge$D$CLK,  NOTIFIER);
+                                                      |
+xmelab: *W,CUNGL1 (./osu05_stdcells.v,573|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (LATCH).
+     $hold (posedge D, negedge CLK, thold_posedge$D$CLK,  NOTIFIER);
+                                                      |
+xmelab: *W,CUNGL1 (./osu05_stdcells.v,575|54): Negative timing check limit not allowed in a 1 limit timing check, setting to 0 in instance (LATCH).
+       'd0: clk_con 	= ALLINSIGS[sid];
+                    	              |
+xmelab: *W,BIGWBS (./maxtb.v,334|35): Bit-select index truncation.
+       'd1: reset_con 	= ALLINSIGS[sid];
+                      	              |
+xmelab: *W,BIGWBS (./maxtb.v,335|37): Bit-select index truncation.
+       'd2: \memdata[7]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,336|40): Bit-select index truncation.
+       'd3: \memdata[6]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,337|40): Bit-select index truncation.
+       'd4: \memdata[5]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,338|40): Bit-select index truncation.
+       'd5: \memdata[4]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,339|40): Bit-select index truncation.
+       'd6: \memdata[3]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,340|40): Bit-select index truncation.
+       'd7: \memdata[2]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,341|40): Bit-select index truncation.
+       'd8: \memdata[1]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,342|40): Bit-select index truncation.
+       'd9: \memdata[0]  	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,343|40): Bit-select index truncation.
+       'd10: test_si_con 	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,344|40): Bit-select index truncation.
+       'd11: test_se_con 	= ALLINSIGS[sid];
+                         	              |
+xmelab: *W,BIGWBS (./maxtb.v,345|40): Bit-select index truncation.
+     for (abit = 0; abit < SignalIDWidth[sid]; abit = abit + 1) begin
+                                           |
+xmelab: *W,BIGWIX (./maxtb.v,380|43): Memory index truncation.
+           if (SignalIDWidth[sid] <= 1) begin 
+                               |
+xmelab: *W,BIGWIX (./maxtb.v,384|31): Memory index truncation.
+             $display(">>>  \tAt T=%0t, V=%0d, exp=%b, got=%b, signal %0s", $time, v_count, xsig[abit], csig[abit], SignalIDName[sid]);
+                                                                                                                                   |
+xmelab: *W,BIGWIX (./maxtb.v,385|131): Memory index truncation.
+               if (diagm==2) $fdisplay(diagf, "  C %0s %0d (exp=%b, got=%b)", SignalIDName[sid], v_count, xsig[abit], csig[abit]);
+                                                                                             |
+xmelab: *W,BIGWIX (./maxtb.v,387|93): Memory index truncation.
+               else $fdisplay(diagf, "  %0d %0s (exp=%b, got=%b)", cpat, SignalIDName[sid], xsig[abit], csig[abit]);
+                                                                                        |
+xmelab: *W,BIGWIX (./maxtb.v,388|88): Memory index truncation.
+             $display(">>>  \tAt T=%0t, V=%0d, exp=%b, got=%b, signal %0s[%0d]", $time, v_count, xsig[abit], csig[abit], SignalIDName[sid], abit);
+                                                                                                                                        |
+xmelab: *W,BIGWIX (./maxtb.v,392|136): Memory index truncation.
+               if (diagm==2) $fdisplay(diagf, "  C %0s[%0d] %0d (exp=%b, got=%b)", SignalIDName[sid], abit, v_count, xsig[abit], csig[abit]);
+                                                                                                  |
+xmelab: *W,BIGWIX (./maxtb.v,394|98): Memory index truncation.
+               else $fdisplay(diagf, "  %0d %0s[%d] (exp=%b, got=%b)", cpat, SignalIDName[sid], abit, xsig[abit], csig[abit]);
+                                                                                            |
+xmelab: *W,BIGWIX (./maxtb.v,395|92): Memory index truncation.
+       $display(">>>  \tAt T=%0t, V=%0d, exp=%b, got=%b, chain %0s, pin %0s, scan cell %0d", $time, v_count, xsig[0], csig[0], CH_NAMES[chain], SignalIDName[sid], fsci);
+                                                                                                                                                               |
+xmelab: *W,BIGWIX (./maxtb.v,427|159): Memory index truncation.
+         if (diagm==2) $fdisplay(diagf, "  C %0s %0d (exp=%b, got=%b)", SignalIDName[sid], v_count, xsig[0], csig[0]);
+                                                                                       |
+xmelab: *W,BIGWIX (./maxtb.v,429|87): Memory index truncation.
+          else $fdisplay(diagf, "  %0d %0s %0d (exp=%b, got=%b)", cur_pat-patoff, SignalIDName[sid], fsci, xsig[0], csig[0]);
+                                                                                                 |
+xmelab: *W,BIGWIX (./maxtb.v,430|97): Memory index truncation.
+         sval_args[sidx+i] = memel[i+SIG_IDS_W];
+                       |
+xmelab: *W,BIGWBS (./maxtb.v,892|23): Bit-select index truncation.
+     for (i = 0; i<2*SignalIDWidth[sid]; i = i + 1) sval[i] = sval_args[sidx+i];
+                                                                            |
+xmelab: *W,BIGWBS (./maxtb.v,914|76): Bit-select index truncation.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.LATCH:v <0x464bbb65>
+			streams:   0, words:     0
+		worklib.DFFSR:v <0x258fae03>
+			streams:   0, words:     0
+		worklib.DFFPOSX1:v <0x407595eb>
+			streams:   0, words:     0
+		worklib.DFFNEGX1:v <0x0370794d>
+			streams:   0, words:     0
+		worklib.datapath_test_2:v <0x6c7b6f7c>
+			streams:   3, words:   721
+		worklib.controller_test_1:v <0x40c192f8>
+			streams:   0, words:     0
+		worklib.mips_test:v <0x59201e1b>
+			streams: 158, words: 417928
+		worklib.mips:v <0x71e56cc6>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                712      66
+		UDPs:                   115       7
+		Primitives:            1322       6
+		Timing outputs:         584      11
+		Registers:              207     213
+		Scalar wires:           618       -
+		Expanded wires:          30       5
+		Vectored wires:           3       -
+		Named events:             5       5
+		Always blocks:            6       6
+		Initial blocks:           2       2
+		Parallel blocks:          3       3
+		Cont. assignments:        1       1
+		Pseudo assignments:       5       5
+		Timing checks:           31       -
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.mips_test:v
+Loading snapshot worklib.mips_test:v .................... Done
+xcelium> source /apps/vlsi_2018/cadence/XCELIUM1710/tools/xcelium/files/xmsimrc
+xcelium> run
+#############################################################################
+ MAX TB Version O-2018.06-SP1
+ Test Protocol File generated from original file "mips.stil"
+ STIL file version: 1.0
+#############################################################################
+
+xmsim: *W,PRPASZ: Packed array at "mips_test.TDATA_FILE" of 8192 bits exceeds limit of 4096 - not probed
+ Use 'probe -create -packed 8192 mips_test.TDATA_FILE' or 'setenv SHM_PACKED_LIMIT 8192' to adjust limit.
+xmsim: *W,PRPASZ: Packed array at "mips_test.diag_file" of 8192 bits exceeds limit of 4096 - not probed
+ Use 'probe -create -packed 8192 mips_test.diag_file' or 'setenv SHM_PACKED_LIMIT 8192' to adjust limit.
+XTB: Starting parallel simulation of 188 patterns
+XTB: Using 0 serial shifts
+XTB: Begin parallel scan load for pattern 0 (T=200.00 ns, V=3)
+XTB: Begin parallel scan load for pattern 5 (T=2200.00 ns, V=23)
+XTB: Begin parallel scan load for pattern 10 (T=4200.00 ns, V=43)
+XTB: Begin parallel scan load for pattern 15 (T=6200.00 ns, V=63)
+XTB: Begin parallel scan load for pattern 20 (T=8200.00 ns, V=83)
+XTB: Begin parallel scan load for pattern 25 (T=10200.00 ns, V=103)
+XTB: Begin parallel scan load for pattern 30 (T=12200.00 ns, V=123)
+XTB: Begin parallel scan load for pattern 35 (T=14200.00 ns, V=143)
+XTB: Begin parallel scan load for pattern 40 (T=16200.00 ns, V=163)
+XTB: Begin parallel scan load for pattern 45 (T=18200.00 ns, V=183)
+XTB: Begin parallel scan load for pattern 50 (T=20200.00 ns, V=203)
+XTB: Begin parallel scan load for pattern 55 (T=22200.00 ns, V=223)
+XTB: Begin parallel scan load for pattern 60 (T=24200.00 ns, V=243)
+XTB: Begin parallel scan load for pattern 65 (T=26200.00 ns, V=263)
+XTB: Begin parallel scan load for pattern 70 (T=28200.00 ns, V=283)
+XTB: Begin parallel scan load for pattern 75 (T=30200.00 ns, V=303)
+XTB: Begin parallel scan load for pattern 80 (T=32200.00 ns, V=323)
+XTB: Begin parallel scan load for pattern 85 (T=34200.00 ns, V=343)
+XTB: Begin parallel scan load for pattern 90 (T=36200.00 ns, V=363)
+XTB: Begin parallel scan load for pattern 95 (T=38200.00 ns, V=383)
+XTB: Begin parallel scan load for pattern 100 (T=40200.00 ns, V=403)
+XTB: Begin parallel scan load for pattern 105 (T=42200.00 ns, V=423)
+XTB: Begin parallel scan load for pattern 110 (T=44200.00 ns, V=443)
+XTB: Begin parallel scan load for pattern 115 (T=46200.00 ns, V=463)
+XTB: Begin parallel scan load for pattern 120 (T=48200.00 ns, V=483)
+XTB: Begin parallel scan load for pattern 125 (T=50200.00 ns, V=503)
+XTB: Begin parallel scan load for pattern 130 (T=52200.00 ns, V=523)
+XTB: Begin parallel scan load for pattern 135 (T=54200.00 ns, V=543)
+XTB: Begin parallel scan load for pattern 140 (T=56200.00 ns, V=563)
+XTB: Begin parallel scan load for pattern 145 (T=58200.00 ns, V=583)
+XTB: Begin parallel scan load for pattern 150 (T=60200.00 ns, V=603)
+XTB: Begin parallel scan load for pattern 155 (T=62200.00 ns, V=623)
+XTB: Begin parallel scan load for pattern 160 (T=64200.00 ns, V=643)
+XTB: Begin parallel scan load for pattern 165 (T=66200.00 ns, V=663)
+XTB: Begin parallel scan load for pattern 170 (T=68200.00 ns, V=683)
+XTB: Begin parallel scan load for pattern 175 (T=70200.00 ns, V=703)
+XTB: Begin parallel scan load for pattern 180 (T=72200.00 ns, V=723)
+XTB: Begin parallel scan load for pattern 185 (T=74200.00 ns, V=743)
+XTB: Simulation of 188 patterns completed with 0 mismatches (time: 75600.00 ns, cycles: 756)
+
+./maxtb.v:1993      $finish(0);
+xcelium> exit
+TOOL:	xmverilog	17.10-s001: Exiting on May 08, 2022 at 17:25:49 EDT  (total: 00:00:03)
