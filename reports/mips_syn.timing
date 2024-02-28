@@ -1,0 +1,269 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : mips
+Version: O-2018.06-SP1
+Date   : Sun May  8 16:15:06 2022
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: cont/state_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: adr[7] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  cont/state_reg_3_/CLK (DFFPOSX1)         0.00       0.00 r
+  cont/state_reg_3_/Q (DFFPOSX1)           0.54       0.54 f
+  cont/U42/Y (NAND3X1)                     0.30       0.84 r
+  cont/U41/Y (NOR2X1)                      0.43       1.27 f
+  cont/U40/Y (OR2X1)                       0.83       2.10 f
+  cont/iord (controller)                   0.00       2.10 f
+  dp/iord (datapath)                       0.00       2.10 f
+  dp/adrmux/s (mux2_2)                     0.00       2.10 f
+  dp/adrmux/U9/Y (INVX2)                   0.48       2.58 r
+  dp/adrmux/U10/Y (AOI22X1)                0.22       2.80 f
+  dp/adrmux/U1/Y (INVX2)                   0.18       2.98 r
+  dp/adrmux/y[7] (mux2_2)                  0.00       2.98 r
+  dp/adr[7] (datapath)                     0.00       2.98 r
+  adr[7] (out)                             0.00       2.98 r
+  data arrival time                                   2.98
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: cont/state_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: adr[6] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  cont/state_reg_3_/CLK (DFFPOSX1)         0.00       0.00 r
+  cont/state_reg_3_/Q (DFFPOSX1)           0.54       0.54 f
+  cont/U42/Y (NAND3X1)                     0.30       0.84 r
+  cont/U41/Y (NOR2X1)                      0.43       1.27 f
+  cont/U40/Y (OR2X1)                       0.83       2.10 f
+  cont/iord (controller)                   0.00       2.10 f
+  dp/iord (datapath)                       0.00       2.10 f
+  dp/adrmux/s (mux2_2)                     0.00       2.10 f
+  dp/adrmux/U9/Y (INVX2)                   0.48       2.58 r
+  dp/adrmux/U11/Y (AOI22X1)                0.22       2.80 f
+  dp/adrmux/U2/Y (INVX2)                   0.18       2.98 r
+  dp/adrmux/y[6] (mux2_2)                  0.00       2.98 r
+  dp/adr[6] (datapath)                     0.00       2.98 r
+  adr[6] (out)                             0.00       2.98 r
+  data arrival time                                   2.98
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: cont/state_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: adr[5] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  cont/state_reg_3_/CLK (DFFPOSX1)         0.00       0.00 r
+  cont/state_reg_3_/Q (DFFPOSX1)           0.54       0.54 f
+  cont/U42/Y (NAND3X1)                     0.30       0.84 r
+  cont/U41/Y (NOR2X1)                      0.43       1.27 f
+  cont/U40/Y (OR2X1)                       0.83       2.10 f
+  cont/iord (controller)                   0.00       2.10 f
+  dp/iord (datapath)                       0.00       2.10 f
+  dp/adrmux/s (mux2_2)                     0.00       2.10 f
+  dp/adrmux/U9/Y (INVX2)                   0.48       2.58 r
+  dp/adrmux/U12/Y (AOI22X1)                0.22       2.80 f
+  dp/adrmux/U3/Y (INVX2)                   0.18       2.98 r
+  dp/adrmux/y[5] (mux2_2)                  0.00       2.98 r
+  dp/adr[5] (datapath)                     0.00       2.98 r
+  adr[5] (out)                             0.00       2.98 r
+  data arrival time                                   2.98
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: cont/state_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: adr[4] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  cont/state_reg_3_/CLK (DFFPOSX1)         0.00       0.00 r
+  cont/state_reg_3_/Q (DFFPOSX1)           0.54       0.54 f
+  cont/U42/Y (NAND3X1)                     0.30       0.84 r
+  cont/U41/Y (NOR2X1)                      0.43       1.27 f
+  cont/U40/Y (OR2X1)                       0.83       2.10 f
+  cont/iord (controller)                   0.00       2.10 f
+  dp/iord (datapath)                       0.00       2.10 f
+  dp/adrmux/s (mux2_2)                     0.00       2.10 f
+  dp/adrmux/U9/Y (INVX2)                   0.48       2.58 r
+  dp/adrmux/U13/Y (AOI22X1)                0.22       2.80 f
+  dp/adrmux/U4/Y (INVX2)                   0.18       2.98 r
+  dp/adrmux/y[4] (mux2_2)                  0.00       2.98 r
+  dp/adr[4] (datapath)                     0.00       2.98 r
+  adr[4] (out)                             0.00       2.98 r
+  data arrival time                                   2.98
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: cont/state_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: adr[3] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  cont/state_reg_3_/CLK (DFFPOSX1)         0.00       0.00 r
+  cont/state_reg_3_/Q (DFFPOSX1)           0.54       0.54 f
+  cont/U42/Y (NAND3X1)                     0.30       0.84 r
+  cont/U41/Y (NOR2X1)                      0.43       1.27 f
+  cont/U40/Y (OR2X1)                       0.83       2.10 f
+  cont/iord (controller)                   0.00       2.10 f
+  dp/iord (datapath)                       0.00       2.10 f
+  dp/adrmux/s (mux2_2)                     0.00       2.10 f
+  dp/adrmux/U9/Y (INVX2)                   0.48       2.58 r
+  dp/adrmux/U14/Y (AOI22X1)                0.22       2.80 f
+  dp/adrmux/U5/Y (INVX2)                   0.18       2.98 r
+  dp/adrmux/y[3] (mux2_2)                  0.00       2.98 r
+  dp/adr[3] (datapath)                     0.00       2.98 r
+  adr[3] (out)                             0.00       2.98 r
+  data arrival time                                   2.98
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : mips
+Version: O-2018.06-SP1
+Date   : Sun May  8 16:15:06 2022
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: dp/wrd/q_reg_7_/CLK
+              (internal path startpoint)
+  Endpoint: writedata[7]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  dp/wrd/q_reg_7_/CLK (DFFPOSX1)           0.00       0.00 r
+  dp/wrd/q_reg_7_/Q (DFFPOSX1)             0.37       0.37 r
+  dp/wrd/q[7] (flop_1)                     0.00       0.37 r
+  dp/writedata[7] (datapath)               0.00       0.37 r
+  writedata[7] (out)                       0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: dp/wrd/q_reg_6_/CLK
+              (internal path startpoint)
+  Endpoint: writedata[6]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  dp/wrd/q_reg_6_/CLK (DFFPOSX1)           0.00       0.00 r
+  dp/wrd/q_reg_6_/Q (DFFPOSX1)             0.37       0.37 r
+  dp/wrd/q[6] (flop_1)                     0.00       0.37 r
+  dp/writedata[6] (datapath)               0.00       0.37 r
+  writedata[6] (out)                       0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: dp/wrd/q_reg_5_/CLK
+              (internal path startpoint)
+  Endpoint: writedata[5]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  dp/wrd/q_reg_5_/CLK (DFFPOSX1)           0.00       0.00 r
+  dp/wrd/q_reg_5_/Q (DFFPOSX1)             0.37       0.37 r
+  dp/wrd/q[5] (flop_1)                     0.00       0.37 r
+  dp/writedata[5] (datapath)               0.00       0.37 r
+  writedata[5] (out)                       0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: dp/wrd/q_reg_4_/CLK
+              (internal path startpoint)
+  Endpoint: writedata[4]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  dp/wrd/q_reg_4_/CLK (DFFPOSX1)           0.00       0.00 r
+  dp/wrd/q_reg_4_/Q (DFFPOSX1)             0.37       0.37 r
+  dp/wrd/q[4] (flop_1)                     0.00       0.37 r
+  dp/writedata[4] (datapath)               0.00       0.37 r
+  writedata[4] (out)                       0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: dp/wrd/q_reg_3_/CLK
+              (internal path startpoint)
+  Endpoint: writedata[3]
+            (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  dp/wrd/q_reg_3_/CLK (DFFPOSX1)           0.00       0.00 r
+  dp/wrd/q_reg_3_/Q (DFFPOSX1)             0.37       0.37 r
+  dp/wrd/q[3] (flop_1)                     0.00       0.37 r
+  dp/writedata[3] (datapath)               0.00       0.37 r
+  writedata[3] (out)                       0.00       0.37 r
+  data arrival time                                   0.37
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
