@@ -1,6 +1,8 @@
 # MIPS-Project
 
 Design and verification of an 8-bit MIPS processor, integrating key modules such as the Instruction Register, Control FSM, Register File, ALU, ALU Control, and Program Counter. The design is implemented using Verilog for RTL design and verified with methodologies inspired by UVM environments. Schematics and layouts were crafted using Virtuoso.
+Block Diagram:
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/a727565b-7ebe-4f01-b9ce-f244c28969e9" />
 
 ## Features
 
